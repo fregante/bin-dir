@@ -1,6 +1,7 @@
 {
   "name": "bin-dir",
   "version": "0.0.0",
+  "private": true,
   "description": "Find or open the folder of a command (installed via npm or not)",
   "license": "MIT",
   "repository": "bfred-it/bin-dir",
@@ -9,6 +10,16 @@
     "bin-dir": "bin/bin-dir.js",
     "open-bin-dir": "bin/open-bin-dir.js"
   },
+  "keywors": [
+    "cli",
+    "find",
+    "bin",
+    "directory",
+    "resolve",
+    "require",
+    "global",
+    "commands"
+  ],
   "files": [
     "bin/bin-dir.sh",
     "bin/open-bin-dir.js"
