@@ -1,0 +1,24 @@
+{
+  "name": "bin-dir",
+  "version": "0.0.0",
+  "description": "Find or open the folder of a command (installed via npm or not)",
+  "license": "MIT",
+  "repository": "bfred-it/bin-dir",
+  "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
+  "bin": {
+    "bin-dir": "bin-dir.sh",
+    "open-bin-dir": "open-bin-dir.sh"
+  },
+  "files": [
+    "bin-dir.sh",
+    "open-bin-dir.sh"
+  ],
+  "bugs": {
+    "url": "https://github.com/bfred-it/bin-dir/issues"
+  },
+  "homepage": "https://github.com/bfred-it/bin-dir#readme",
+  "dependencies": {
+    "pkg-dir-cli": "^1.0.0",
+    "realpath": "^1.1.0"
+  }
+}
