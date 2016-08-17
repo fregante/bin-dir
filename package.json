@@ -1,6 +1,6 @@
 {
   "name": "bin-dir",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find or open the folder of a global command (installed via npm or not)",
   "license": "MIT",
   "repository": "bfred-it/bin-dir",
