@@ -21,7 +21,7 @@
     "path"
   ],
   "files": [
-    "bin/bin-dir.sh",
+    "bin/bin-dir.js",
     "bin/open-bin-dir.js"
   ],
   "bugs": {
