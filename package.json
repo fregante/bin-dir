@@ -21,6 +21,7 @@
     "path"
   ],
   "files": [
+    "index.js",
     "bin/bin-dir.js",
     "bin/open-bin-dir.js"
   ],
