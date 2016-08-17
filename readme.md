@@ -2,6 +2,10 @@
 
 > Find the folder of a global command (installed via npm or not)
 
+This is essentially a cross-os command for `which` + `realpath` + `dirname` plus special support for npm modules.
+
+"Special support" means that `bin-dir eslint` won't open the directory `.../eslint/bin` but `.../eslint`
+
 ## Install
 
 ```sh
