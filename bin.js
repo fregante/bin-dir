@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const binDir = require('..');
+const binDir = require('.');
 
 const dir = binDir(process.argv[2]);
 

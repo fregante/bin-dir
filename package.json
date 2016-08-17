@@ -5,10 +5,7 @@
   "license": "MIT",
   "repository": "bfred-it/bin-dir",
   "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
-  "bin": {
-    "bin-dir": "bin/bin-dir.js",
-    "open-bin-dir": "bin/open-bin-dir.js"
-  },
+  "bin": "bin.js",
   "keywors": [
     "cli",
     "find",
@@ -31,7 +28,6 @@
   "homepage": "https://github.com/bfred-it/bin-dir#readme",
   "dependencies": {
     "fs.realpath": "^1.0.0",
-    "open": "0.0.5",
     "pkg-dir": "^1.0.0",
     "realpath": "^1.1.0",
     "which": "^1.2.10"

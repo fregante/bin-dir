@@ -1,6 +1,6 @@
 # bin-dir 
 
-> Find or open the folder of a global command (installed via npm or not)
+> Find the folder of a global command (installed via npm or not)
 
 ## Install
 
@@ -10,25 +10,16 @@ npm install --global bin-dir
 
 ## CLI
 
-* `bin-dir` shows the directory
+```sh
+$ bin-dir npm
+/usr/local/lib/node_modules/npm
 
-	```sh
-	$ bin-dir npm
-	/usr/local/lib/node_modules/npm
+$ bin-dir wget
+/usr/local/Cellar/wget/1.18/bin
 
-	$ bin-dir wget
-	/usr/local/Cellar/wget/1.18/bin
-
-	$ bin-dir unicorns
-	// no output
-	```
-
-* `open-bin-dir` opens the resolved directory in macOS finder
-
-	```sh
-	$ open-bin-dir wget
-	// Opens the resolved directory in macOS finder
-	```
+$ bin-dir unicorns
+// no output
+```
 
 ## API
 
