@@ -1,4 +1,8 @@
 #!/usr/bin/env node
 const binDir = require('..');
 
-console.log(binDir(process.argv[2]));
+const dir = binDir(process.argv[2]);
+
+if (dir) {
+	console.log(dir);
+}
