@@ -2,7 +2,7 @@
   "name": "bin-dir",
   "version": "0.0.0",
   "private": true,
-  "description": "Find or open the folder of a command (installed via npm or not)",
+  "description": "Find or open the folder of a global command (installed via npm or not)",
   "license": "MIT",
   "repository": "bfred-it/bin-dir",
   "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
@@ -18,7 +18,8 @@
     "resolve",
     "require",
     "global",
-    "commands"
+    "commands",
+    "path"
   ],
   "files": [
     "bin/bin-dir.sh",
