@@ -6,19 +6,22 @@
   "repository": "bfred-it/bin-dir",
   "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
   "bin": {
-    "bin-dir": "bin-dir.sh",
-    "open-bin-dir": "open-bin-dir.sh"
+    "bin-dir": "bin/bin-dir.js",
+    "open-bin-dir": "bin/open-bin-dir.js"
   },
   "files": [
-    "bin-dir.sh",
-    "open-bin-dir.sh"
+    "bin/bin-dir.sh",
+    "bin/open-bin-dir.js"
   ],
   "bugs": {
     "url": "https://github.com/bfred-it/bin-dir/issues"
   },
   "homepage": "https://github.com/bfred-it/bin-dir#readme",
   "dependencies": {
-    "pkg-dir-cli": "^1.0.0",
-    "realpath": "^1.1.0"
+    "fs.realpath": "^1.0.0",
+    "open": "0.0.5",
+    "pkg-dir": "^1.0.0",
+    "realpath": "^1.1.0",
+    "which": "^1.2.10"
   }
 }
