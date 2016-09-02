@@ -24,8 +24,7 @@
   ],
   "files": [
     "index.js",
-    "bin/bin-dir.js",
-    "bin/open-bin-dir.js"
+    "bin.js"
   ],
   "bugs": {
     "url": "https://github.com/bfred-it/bin-dir/issues"
