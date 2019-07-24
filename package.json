@@ -2,10 +2,20 @@
   "name": "bin-dir",
   "version": "2.0.2",
   "description": "Find or open the folder of a global command (installed via npm or not)",
+  "repository": "fregante/bin-dir",
   "license": "MIT",
-  "repository": "bfred-it/bin-dir",
-  "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
+  "author": "Federico Brigante <opensource@bfred.it> (bfred.it)",
+  "files": [
+    "index.js",
+    "bin.js"
+  ],
   "bin": "bin.js",
+  "dependencies": {
+    "fs.realpath": "^1.0.0",
+    "pkg-dir": "^1.0.0",
+    "realpath": "^1.1.0",
+    "which": "^1.2.10"
+  },
   "keywors": [
     "cli",
     "find",
@@ -21,19 +31,5 @@
     "global",
     "commands",
     "path"
-  ],
-  "files": [
-    "index.js",
-    "bin.js"
-  ],
-  "bugs": {
-    "url": "https://github.com/bfred-it/bin-dir/issues"
-  },
-  "homepage": "https://github.com/bfred-it/bin-dir#readme",
-  "dependencies": {
-    "fs.realpath": "^1.0.0",
-    "pkg-dir": "^1.0.0",
-    "realpath": "^1.1.0",
-    "which": "^1.2.10"
-  }
+  ]
 }

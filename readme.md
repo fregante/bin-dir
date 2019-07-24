@@ -1,4 +1,4 @@
-# bin-dir 
+# bin-dir
 
 > Find the folder of a global command (installed via npm or not)
 
@@ -9,7 +9,7 @@ This is essentially a cross-os command for `which` + `realpath` + `dirname` plus
 ## Install
 
 ```sh
-npm install --global bin-dir 
+npm install --global bin-dir
 ```
 
 ## CLI
@@ -37,4 +37,4 @@ binDir('unicorns') === undefined;
 
 ## License
 
-MIT © [Federico Brigante](http://twitter.com/bfred_it)
+MIT © [Federico Brigante](https://bfred.it)
